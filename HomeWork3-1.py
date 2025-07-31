@@ -9,14 +9,14 @@ get_number2=int(get_number2)
 if get_number2 == 0 and get_action in ("/","//","%") : # перевірка ділення на нуль
     print ("На нуль ділити не можна")
 elif get_action == "+":
-    summ = get_number1 + get_number2
-    print(f"{get_number1} + {get_number2} = {summ} ")
+    summa = get_number1 + get_number2
+    print(f"{get_number1} + {get_number2} = {summa} ")
 elif get_action == "-":
     minus = get_number1 - get_number2
     print(f"{get_number1} - {get_number2} = {minus} ")
 elif get_action == "*":
-    mnoj = get_number1 * get_number2
-    print(f"{get_number1} * {get_number2} = {mnoj} ")
+    multiplication = get_number1 * get_number2
+    print(f"{get_number1} * {get_number2} = {multiplication} ")
 elif get_action == "/":
     dilFloat = get_number1 / get_number2
     print(f"{get_number1} / {get_number2} = {dilFloat} ")
@@ -24,8 +24,8 @@ elif get_action == "//"  :
     dilInt = get_number1 // get_number2
     print(f"{get_number1} // {get_number2} = {dilInt} ")
 elif get_action == "%":
-    chastka = get_number1 % get_number2
-    print(f"{get_number1} % {get_number2} = {chastka} ")
+    fraction = get_number1 % get_number2
+    print(f"{get_number1} % {get_number2} = {fraction} ")
 elif get_action == "**":
     step = get_number1 ** get_number2
     print(f"{get_number1} ** {get_number2} = {step} ")
