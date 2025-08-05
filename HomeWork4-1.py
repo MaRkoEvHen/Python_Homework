@@ -11,6 +11,7 @@ for el in my_list:
 new_list.sort()
 my_list = new_list + zero_list
 print(my_list)
+print(zero_list)
 
 
 
