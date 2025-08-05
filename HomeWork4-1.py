@@ -8,7 +8,6 @@ for el in my_list:
         new_list.append(el)
     elif el > 0:
         new_list.append(el)
-
 my_list = new_list + zero_list
 print(my_list)
 
