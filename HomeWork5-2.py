@@ -32,6 +32,7 @@ while True:
         print(f"{get_number1} ** {get_number2} = {step} ")
     else:
         print("Ви ввели не правильну дію")
-    if input("Бажаєте продовжити? (так/ні): ").lower() != "так":
-        print("Допобачення.")
+    exit_code = input("Хочете продовжити працювати? (yes/no): ").strip().lower()
+    if exit_code == "no" or exit_code == "n":
+        print("Допобачення!")
         break
