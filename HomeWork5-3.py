@@ -8,6 +8,7 @@ for word in words:
     cap_word=word.capitalize()
     hashtag += cap_word
 if len(hashtag) > 140:
+    print("Хештег занадто довгий, його буде обрізано до 140 символів")
     hashtag = hashtag[:140]
 else:
     print("Хештег успішно створено")
