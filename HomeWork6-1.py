@@ -6,7 +6,7 @@ letter_one= letters[0].strip()
 letter_two = letters[1].strip()
 index_one = string.ascii_letters.index(letter_one)
 index_two = string.ascii_letters.index(letter_two)
-if index_one<= index_two:
+if index_one <= index_two:
     result = string.ascii_letters[index_one:index_two+1]
     print(result)
 
