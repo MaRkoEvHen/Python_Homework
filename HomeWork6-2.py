@@ -7,7 +7,7 @@ if 0 <= get_number <= 8640000:
     seconds = rem_sec % 60
     if days == 1:
         days_str = "день"
-    elif days % 10 == 1 and days % 100 != 11:
+    elif days % 10 == 1 anddays % 100 != 11:
         days_str = "день"
     elif 2 <= days % 10 <= 4 and (days % 100 < 10 or days % 100 > 20):
         days_str = "дні"
