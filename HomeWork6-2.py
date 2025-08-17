@@ -14,7 +14,6 @@ if 0 <= get_number <= 8640000:
     else:
         days_str = "днів"
 
-
     hours_str = str(hours).zfill(2)
     minutes_str = str(minutes).zfill(2)
     seconds_str = str(seconds).zfill(2)
