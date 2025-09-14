@@ -65,7 +65,7 @@ User: Ivan Ivanov
 Items:
 lemon: 4 pcs.
 apple: 10 pcs.
-"""
+"""=
 
 assert cart.get_total() == 40
 
